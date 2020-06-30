@@ -20,7 +20,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.saurabh.navigationbasics.BaseActivity
 import com.saurabh.navigationbasics.R
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var navView: NavigationView
